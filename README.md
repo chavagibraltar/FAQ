@@ -51,10 +51,9 @@ Follow these steps to set up the project:
     ddev composer install
     ```
 
-4. **Import the database and files**:
+4. **Import config files**:
     ```bash
-    ddev import-db --src=path/to/database.sql.gz
-    ddev import-files --src=path/to/files.tar.gz
+    drush config:export
     ```
 
 5. **Run Drupal database updates and cache clear**:
@@ -65,7 +64,7 @@ Follow these steps to set up the project:
 
 6. **Navigate to the custom theme directory and install Node dependencies**:
     ```bash
-    cd web/themes/custom/my_new_theme
+    cd web/themes/custom/react_theme
     npm install
     ```
 
