@@ -46,13 +46,7 @@ base:
         weight: -10
       css/components/ui-dialog.css:
         weight: -10
-      css/components/layout.css: {  }
-      css/components/main.css: {  }
-      css/components/rtl.css: {  }
-      css/components/styles.css: {  }
-      css/components/print.css: {  }
-      css/components/theme.css: {  }
-      css/homepage.css: {}
+      css/FAQ.css: {}
       css/rtl.css: {direction: rtl}
 
 dialog:

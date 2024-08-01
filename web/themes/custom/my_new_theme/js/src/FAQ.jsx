@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import myImage from './assets/images/dreams_logo.PNG';
+import myImage from './assets/images/dreams_logo.png';
 
 import { Container, List, ListItem, ListItemText, Typography, Accordion, AccordionDetails, AccordionSummary, Tabs, Tab, Box } from '@mui/material';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
@@ -25,7 +25,7 @@ const FAQ = () => {
                 setTopics(response.data.data);
             })
             .catch(error => {
-                console.error('Error fetching questions:', error);
+                console.error('Error fetching topics:', error);
             });
     }, []);
 
