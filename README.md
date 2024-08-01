@@ -53,7 +53,7 @@ Follow these steps to set up the project:
 
 4. **Import config files**:
     ```bash
-    drush config:export
+    ddev drush config:export
     ```
 
 5. **Run Drupal database updates and cache clear**:
