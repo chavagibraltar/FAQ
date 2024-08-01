@@ -1,0 +1,19 @@
+{
+  "name": "faq",
+  "version": "1.0.0",
+  "description": "A website of a production events company, contains a list of questions and answers divided by topic",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavagibraltar/FAQ.git"
+  },
+  "author": "Chava Gibraltar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavagibraltar/FAQ/issues"
+  },
+  "homepage": "https://github.com/chavagibraltar/FAQ#readme"
+}

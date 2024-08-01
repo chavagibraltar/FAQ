@@ -1,0 +1,31 @@
+name: my_new_theme
+type: theme
+base theme: stable9
+version: 1.0.0
+libraries:
+  - my_new_theme/base
+  - my_new_theme/messages
+  - core/normalize
+  - my_new_theme/react_app
+
+libraries-extend:
+  user/drupal.user:
+    - my_new_theme/user
+  core/drupal.dropbutton:
+    - my_new_theme/dropbutton
+  core/drupal.dialog:
+    - my_new_theme/dialog
+  file/drupal.file:
+    - my_new_theme/file
+  core/drupal.progress:
+    - my_new_theme/progress
+description: ''
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.3.1'
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
+stylesheets-rtl:
+  theme:
+    css/rtl.css: {}
