@@ -43,47 +43,46 @@ Follow these steps to set up the project:
    cd dream-events
    ```
 2. **Start the DDEV environment**:
-  ```bash
-  ddev start
-  ```
+    ```bash
+    ddev start
+    ```
 
 3. **Install Drupal dependencies**:
-  ```bash
-  ddev composer install
-  ```
+    ```bash
+    ddev composer install
+    ```
 
 4. **Import the database and files**:
-
-  ```bash
-  ddev import-db --src=path/to/database.sql.gz
-  ddev import-files --src=path/to/files.tar.gz
-  ```
+    ```bash
+    ddev import-db --src=path/to/database.sql.gz
+    ddev import-files --src=path/to/files.tar.gz
+    ```
 
 5. **Run Drupal database updates and cache clear**:
-  ```bash
-  ddev drush updatedb
-  ddev drush cr
-  ```
+    ```bash
+    ddev drush updatedb
+    ddev drush cr
+    ```
 
 6. **Navigate to the custom theme directory and install Node dependencies**:
-  ```bash
-  cd web/themes/custom/my_new_theme
-  npm install
-  ```
+    ```bash
+    cd web/themes/custom/my_new_theme
+    npm install
+    ```
 
 7. **Build the React application**:
-  ```bash
-  npm run build
-  ```
+    ```bash
+    npm run build
+    ```
 
 ## Running and Testing
 The Drupal site will be available at: https://linnovate.ddev.site:8443/
 The React frontend will be available according to the Webpack configuration (usually at http://localhost:3000).
 
 ## Directory Structure
-web/themes/custom/my_new_theme: Contains the custom Drupal theme templates, files, and configurations.
-web/themes/custom/my_new_theme/js/src: Contains the React source code.
-webpack.config.js: Webpack configuration file with all custom settings and plugins.
+**web/themes/custom/my_new_theme:**  Contains the custom Drupal theme templates, files, and configurations.
+**web/themes/custom/my_new_theme/js/src:**  Contains the React source code.
+**webpack.config.js:**  Webpack configuration file with all custom settings and plugins.
 
 ## Documentation
 Drupal Documentation
@@ -97,7 +96,7 @@ Contributions are welcome
 please submit pull requests with clear explanations of the changes made.
 
 ## Contact
-For additional questions or issues, you can contact the project manager at example@example.com.
+For additional questions or issues, you can contact the project manager at c0548503101@gmail.com.
 
 ## License
 This project is licensed under the MIT License.
