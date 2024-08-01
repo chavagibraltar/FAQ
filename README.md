@@ -1,9 +1,8 @@
 # FAQ - Dreams Event Website
-A Drupal project containing questions and answers about the production company - dreams event
+A Drupal project containing questions and answers about the production company - 'Dreams Event'
 
-## Project Description
-
-The 'Dream Events' project is an event planning website built using Drupal 10 and utilizes advanced technologies like React 18 for the frontend. The purpose of the website is to offer a rich and impressive user experience for event planners, utilizing interactive and modern interfaces.
+The 'Dream Events' project is an event planning website built using Drupal 10 and utilizes advanced technologies like React 18 for the frontend. 
+The purpose of the website is to offer a rich and impressive user experience for event planners, utilizing interactive and modern interfaces.
 
 The website features a comprehensive questions and answers section categorized by topics to assist users in finding relevant information quickly and efficiently.
 
@@ -76,7 +75,7 @@ Follow these steps to set up the project:
     ```
 
 ## Running and Testing
-The Drupal site will be available at: https://linnovate.ddev.site:8443/
+The Drupal site will be available at: https://linnovate.ddev.site:8443/ .
 The React frontend will be available according to the Webpack configuration (usually at http://localhost:3000).
 
 ## Directory Structure
