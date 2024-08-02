@@ -1,0 +1,45 @@
+uuid: c6ce03ab-46f6-4157-a527-a8474af05289
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.question
+    - field.field.comment.question.field_answer
+    - field.field.comment.question.field_question
+    - field.field.comment.question.field_topic
+  module:
+    - text
+id: comment.question.default
+targetEntityType: comment
+bundle: question
+mode: default
+content:
+  field_answer:
+    type: text_default
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    weight: 102
+    region: content
+  field_question:
+    type: string
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  field_topic:
+    type: entity_reference_label
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    weight: 103
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden: {  }

@@ -1,0 +1,22 @@
+uuid: 40ce9107-ead1-44b0-9570-3ddb1de9de22
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_order
+    - node.type.question
+  module:
+    - weight
+id: node.question.field_order
+field_name: field_order
+entity_type: node
+bundle: question
+label: order
+description: 'this fielsd is for an order area'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  range: '20'
+field_type: weight

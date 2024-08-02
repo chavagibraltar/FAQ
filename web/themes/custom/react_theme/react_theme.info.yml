@@ -1,0 +1,31 @@
+name: react_theme
+type: theme
+base theme: stable9
+version: 1.0.0
+libraries:
+  - react_theme/base
+  - react_theme/messages
+  - core/normalize
+  # - my_new_theme/react_app
+
+libraries-extend:
+  user/drupal.user:
+    - react_theme/user
+  core/drupal.dropbutton:
+    - react_theme/dropbutton
+  core/drupal.dialog:
+    - react_theme/dialog
+  file/drupal.file:
+    - react_theme/file
+  core/drupal.progress:
+    - react_theme/progress
+description: ''
+core_version_requirement: ^10
+generator: 'starterkit_theme:10.3.1'
+regions:
+  header: 'Header'
+  content: 'Content'
+  footer: 'Footer'
+stylesheets-rtl:
+  theme:
+    css/rtl.css: {}

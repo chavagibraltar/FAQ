@@ -1,0 +1,58 @@
+uuid: 57b5c659-f2a9-4f45-9726-dbda674cebfe
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.question
+    - field.field.comment.question.field_answer
+    - field.field.comment.question.field_question
+    - field.field.comment.question.field_topic
+  module:
+    - text
+id: comment.question.default
+targetEntityType: comment
+bundle: question
+mode: default
+content:
+  author:
+    weight: -2
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_answer:
+    type: text_textarea_with_summary
+    weight: 12
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+      show_summary: false
+    third_party_settings: {  }
+  field_question:
+    type: string_textfield
+    weight: 11
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  field_topic:
+    type: entity_reference_autocomplete
+    weight: 13
+    region: content
+    settings:
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  subject:
+    type: string_textfield
+    weight: 10
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+hidden: {  }

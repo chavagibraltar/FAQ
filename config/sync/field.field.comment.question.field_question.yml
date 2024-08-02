@@ -1,0 +1,19 @@
+uuid: fc8b369f-261b-46d8-aefd-b106257c6f14
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.question
+    - field.storage.comment.field_question
+id: comment.question.field_question
+field_name: field_question
+entity_type: comment
+bundle: question
+label: question
+description: 'this fielsd is for a question area'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

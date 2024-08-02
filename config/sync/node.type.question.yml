@@ -1,0 +1,18 @@
+uuid: 2b1eaa46-72da-4fd1-b442-e3b3b936bd38
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: question
+type: question
+description: 'question and answer'
+help: 'question and answer'
+new_revision: true
+preview_mode: 1
+display_submitted: true

@@ -1,0 +1,28 @@
+uuid: bdb2d465-07a6-4e56-b79a-6f2aa297d6c1
+langcode: en
+status: true
+dependencies:
+  config:
+    - comment.type.question
+    - field.storage.comment.field_answer
+    - filter.format.full_html
+    - filter.format.plain_text
+  module:
+    - text
+id: comment.question.field_answer
+field_name: field_answer
+entity_type: comment
+bundle: question
+label: answer
+description: 'this fielsd is for an answer area'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - full_html
+    - plain_text
+field_type: text_with_summary

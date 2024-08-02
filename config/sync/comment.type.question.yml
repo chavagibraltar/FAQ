@@ -1,0 +1,8 @@
+uuid: 5758c981-59c5-4ed5-a7c3-9576c7563726
+langcode: en
+status: true
+dependencies: {  }
+id: question
+label: question
+target_entity_type_id: node
+description: ' This content type is used to ask and answer questions'

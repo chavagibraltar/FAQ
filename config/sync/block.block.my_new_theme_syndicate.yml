@@ -1,0 +1,23 @@
+uuid: c4973c8b-d201-48a1-bdd5-db8a91284dd9
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - my_new_theme
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: my_new_theme_syndicate
+theme: my_new_theme
+region: header
+weight: 0
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

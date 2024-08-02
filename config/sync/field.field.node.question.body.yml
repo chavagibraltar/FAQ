@@ -1,0 +1,28 @@
+uuid: 88a17757-c539-4dbc-903c-b29eda14d140
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - filter.format.full_html
+    - filter.format.plain_text
+    - node.type.question
+  module:
+    - text
+id: node.question.body
+field_name: body
+entity_type: node
+bundle: question
+label: Body
+description: 'this fielsd is for an answer area'
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats:
+    - full_html
+    - plain_text
+field_type: text_with_summary
